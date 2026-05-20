@@ -41,7 +41,7 @@ This skill works with [Claude Code](https://claude.com/claude-code). You can ins
 ### Option 1: User scope (available across all your projects)
 
 ```bash
-git clone https://github.com/<YOUR_USER>/claude-skill-walk-with-socrates.git \
+git clone https://github.com/pvminh17/claude-skill-walk-with-socrates.git \
   ~/.claude/skills/walk-with-socrates
 ```
 
@@ -51,20 +51,20 @@ From the root of the project you want the skill in:
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/<YOUR_USER>/claude-skill-walk-with-socrates.git \
+git clone https://github.com/pvminh17/claude-skill-walk-with-socrates.git \
   .claude/skills/walk-with-socrates
 ```
 
 ### Option 3: One-line install script
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOUR_USER>/claude-skill-walk-with-socrates/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/pvminh17/claude-skill-walk-with-socrates/main/install.sh | bash
 ```
 
 By default the script installs to user scope (`~/.claude/skills/walk-with-socrates`). Pass `--project` to install into the current project's `.claude/skills/` instead:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOUR_USER>/claude-skill-walk-with-socrates/main/install.sh | bash -s -- --project
+curl -fsSL https://raw.githubusercontent.com/pvminh17/claude-skill-walk-with-socrates/main/install.sh | bash -s -- --project
 ```
 
 ## Verifying installation
