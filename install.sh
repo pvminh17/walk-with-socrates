@@ -2,8 +2,8 @@
 # Installer for the "walk-with-socrates" Claude Code skill.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/<YOUR_USER>/claude-skill-walk-with-socrates/main/install.sh | bash
-#   curl -fsSL https://raw.githubusercontent.com/<YOUR_USER>/claude-skill-walk-with-socrates/main/install.sh | bash -s -- --project
+#   curl -fsSL https://raw.githubusercontent.com/pvminh17/walk-with-socrates/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/pvminh17/walk-with-socrates/main/install.sh | bash -s -- --project
 #
 # Flags:
 #   --project   Install into ./.claude/skills/ instead of ~/.claude/skills/
@@ -12,7 +12,7 @@
 
 set -euo pipefail
 
-REPO_URL="https://github.com/<YOUR_USER>/claude-skill-walk-with-socrates.git"
+REPO_URL="https://github.com/pvminh17/walk-with-socrates.git"
 SKILL_NAME="walk-with-socrates"
 
 SCOPE="user"
